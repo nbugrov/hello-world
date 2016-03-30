@@ -1,2 +1,3 @@
-# hello-world
-I don't know what you expect
+# Hello, world!
+
+There's going to be a hello-world program of some kind here. *I hope*.
