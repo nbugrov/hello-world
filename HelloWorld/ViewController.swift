@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-  var labelString: String = "Hello, World!"
+  let labelString = "Hello, World!"
   
   @IBOutlet weak var mainTextLabel: UILabel!
   
