@@ -31,9 +31,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WYE-Qw-O3c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="CjL-P4-Lbu"/>
-                            <constraint firstItem="WYE-Qw-O3c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="145" id="KWe-69-wlV"/>
+                            <constraint firstItem="WYE-Qw-O3c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="145" id="KWe-69-wlV">
+                                <variation key="heightClass=compact-widthClass=compact" constant="115"/>
+                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="WYE-Qw-O3c" secondAttribute="trailing" constant="70" id="Uck-Ua-7Gy"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WYE-Qw-O3c" secondAttribute="bottom" constant="165" id="g8c-dE-VUu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WYE-Qw-O3c" secondAttribute="bottom" constant="165" id="g8c-dE-VUu">
+                                <variation key="heightClass=compact-widthClass=compact" constant="135"/>
+                            </constraint>
                         </constraints>
                     </view>
                     <connections>
@@ -42,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="561" y="515"/>
+            <point key="canvasLocation" x="561" y="514.5"/>
         </scene>
     </scenes>
 </document>
